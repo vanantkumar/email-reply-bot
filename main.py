@@ -1,6 +1,6 @@
 import streamlit as st
-from agents.emailagent import generate_email_response
-from utils.emailsender import send_email
+from agents.email_agent import generate_email_response
+from utils.email_sender import send_email
 
 st.set_page_config(page_title="Email Reply Bot", layout="wide")
 st.title("Email Reply Bot")
